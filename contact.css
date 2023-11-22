@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100;200&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(224, 242, 242);
+}
+header{
+    height: 80px;
+}
+main{
+    height: 700px;
+}
+.navbar-container{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    height: 60px;
+    width: 90px;
+}
+.back{
+   height: 100%;
+   width: 80px;
+   background-color: transparent;
+   border-style: none;
+}
+.back a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    width: 700px;
+}
+.heading h1{
+    font-size: 70px;
+}
+.info{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 200px;
+}
+.detail{
+    border-color: none;
+    width: 400px;
+    height: 130px;
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.icon{
+    font-size: 60px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    color: rgb(87, 16, 120);
+}
+.heading{
+    position: relative;
+    left: 25px;
+}
+.head-text{
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+}
+.contact{
+    display: flex;
+    position: relative;
+}
+.box{
+    width: 100%;
+    height: 450px;
+    border-color: rgb(1, 137, 171);
+    border-style: solid;
+    box-shadow: 0px 0px 500px rgb(19, 115, 184);
+}
+.contact2{
+    width: 400px;
+    position: relative;
+    left: 500px;
+}
+.message{
+    height: 100px;
+}
+.box h1{
+    width: 250px;
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+}
+.table-input{
+    height: 50px;
+    width: 90%;position: relative;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+.send-btn{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left:150px;
+    top: 45px;
+    font-size: 15px;
+    color: white;
+    border:none;
+    background-color: blueviolet;
+}
+.footer{
+    background-image: url('./back9.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.head{
+    background-color: black;
+    text-align: center;
+    position: relative;
+    top: 500px;
+}
+.cols{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    height: 200px;
+    position: relative;
+    top: 100px;
+    background-color: transparent;
+}
+.col h2{
+    color: rgb(3, 109, 100);
+    background-color: transparent;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+.col h2:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.col ul{
+    background-color: transparent;
+}
+.col ul li{
+    position: relative;
+    top: 20px;
+    background-color: transparent;
+    list-style:none;
+}
+.col ul li a{
+    color: rgb(23, 125, 143);
+    font-weight: bold;
+    transition:  all 0.3s ease;
+    background-color:  transparent;
+    text-decoration: none;
+}
+.col ul li a:hover{
+    color:  rgb(2, 46, 46);
+    padding-left: 8px;
+    font-weight: bolder;
+}
+.social{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    width: 180px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    align-items: center;
+    color: white;
+}
+.social i{
+    background-color: rgb(38, 40, 40);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+.social i::before{
+    position: relative;
+    top: 7px;
+}
+.social i:hover{
+    background-color: white;
+}
+.social a{
+    background-color: transparent;
+}
+.social a:hover{
+    color:   rgb(2, 46, 46);
+    border-radius: 50%;
+    
+}
+.input-sign-up{
+    position: relative;
+    left: 1100px;
+    top: 50px;
+    width: 350px;
+    height: 40px;
+}
+.in-up{
+    width: 100%;
+    height: 100%;
+    border-color: rgb(38, 40, 40);
+    border-style: solid;
+    background-color: transparent;
+    color:  rgb(38, 40, 40);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sign-btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(38, 40, 40);
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    top: 70px;
+    left: 1100px;
+    font-size: 17px;
+}
+.sign-btn:hover{
+    background-color: white;
+    color: rgb(38, 40, 40);
+}

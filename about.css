@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100;200&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:azure;
+}
+.navbar-container{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    height: 60px;
+    width: 90px;
+}
+.back{
+   height: 100%;
+   width: 80px;
+   background-color: transparent;
+   border-style: none;
+}
+.back a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    width: 700px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.heading h1{
+    height: 150px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color:rgb(8, 81, 154);
+}
+.heading h2{
+    color: rgb(19, 122, 122);
+    height: 85px;
+    font-size: 50px;
+}
+.heading p{
+    font-size: 25px;
+    height: 160px;
+}
+.heading h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    position: relative;
+    left: 60px;
+    color: rgb(19, 122, 122);
+}
+.about{
+    display: flex;
+    height: 650px;
+}
+.images{
+    width: 800px;
+}
+.box-a,.box-b{
+    display: flex;
+}
+.box1{
+    background-image: url("./about1.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 55px rgb(11, 130, 177);
+    width: 200px;
+    height: 180px;
+    position: relative;
+    left: 150px;
+    top: 180px;
+    border: solid white;
+}
+.box2{
+    background-image: url("./about2.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 55px  rgb(11, 130, 177);
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 149px;
+    top: 70px;
+    border: solid white;
+}
+.box3{
+    background-image: url("./about3.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 55px  rgb(11, 130, 177);
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    border: solid white;
+}
+.box4{
+    background-image: url("./about4.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 55px  rgb(11, 130, 177);
+    width: 190px;
+    height: 270px;
+    position: relative;
+    left: 195px;
+    top: 40px;
+    border: solid white;
+}
+.box5{
+    background-image: url("./about5.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 55px  rgb(11, 130, 177);
+    width: 170px;
+    height: 180px;
+    position: relative;
+    left: 140px;
+    top: 180px;
+    border: solid white;
+}
+.box6{
+    background-image: url("./about6.avif");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 55px  rgb(11, 130, 177);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 192px;
+    top: 58px;
+    border: solid white;
+}
+.btn{
+    position: relative;
+    top: 30px;
+    left: 300px;
+    height: 60px;
+    width: 150px;
+}
+.order-btn{
+    box-shadow: 0px 0px 20px rgb(101, 101, 170);
+    border-radius: 5px;
+    border-color: none;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.order-btn a{
+    text-decoration: none;
+    color: black;
+}
+.order-btn a:hover{
+    background-color: rgb(14, 90, 151);
+    color: white;
+}
+.order-btn:hover{
+    background-color: rgb(14, 90, 151);
+}
+.chef-heading{
+    position: relative;
+    width: 400px;
+    height: 80px;
+    top: 80px;
+    left: 600px;
+}
+.chef-heading h2{
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    left: 80px;
+}
+.chef-heading h1{
+    font-size: 40px;
+}
+.chef1{
+    background-color: rgb(44, 83, 83);
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    top: 150px;
+    width: 230px;
+    height: 300px;
+}
+.chef2{
+    background-color: rgb(44, 83, 83);
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    top: 150px;
+    width: 230px;
+    height: 300px;
+}
+.chef3{
+    background-color: rgb(44, 83, 83);
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    top: 150px;
+    width: 230px;
+    height: 300px;
+}
+.chef4{
+    background-color: rgb(44, 83, 83);
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    top: 150px;
+    width: 230px;
+    height: 300px;
+}
+.chef1:hover,.chef2:hover,.chef3:hover,.chef4:hover,.client1:hover,.client1:hover,.client2:hover,.client3:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.profile{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.chef-img{
+    border-radius: 2000px;
+    position: relative;
+    left: 35px;
+    top: 20px;
+    border-style: solid;
+    border-color: rgb(64, 70, 77);
+}
+.chef1 h2,.chef2 h2,.chef3 h2,.chef4 h2{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.icons{
+    color: black;
+    position: relative;
+    top: 45px;
+    left: 52px;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    width: 120px;
+    border-radius: 50px;
+}
+.review{
+    height: 600px;
+}
+.review-heading{
+    width: 350px;
+    position: relative;
+    left: 600px;
+    top: 50px;
+}
+.review-heading h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+.review-heading h2{
+    font-size: 25px;
+    position: relative;
+    left: 15px;
+}
+.review-profile{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}
+.client1{
+    width: 420px;
+    height: 220px;
+    border-color: black;
+    border-style: solid;
+}
+.client2{
+    width: 420px;
+    height: 220px;
+    border-color: black;
+    border-style: solid;
+}
+.client3{
+    width: 420px;
+    height: 220px;
+    border-color: black;
+    border-style: solid;
+}
+.client-p{
+    display: flex;
+}
+.client{
+    border-radius: 100px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.client-info{
+    height: 50px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.client-info h3{
+    font-family: 'Dancing Script', cursive;
+}
+.client1 p,.client2 p,.client3 p{
+    width: 390px;
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+.footer{
+    background-color: rgb(14, 80, 80);
+    height: 400px;
+}
+.head{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    top: 500px;
+}
+.cols{
+    background-color: rgb(14, 80, 80);
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    height: 200px;
+    position: relative;
+    top: 100px;
+    background-color: rgb(14, 80, 80);
+}
+.col h2{
+    color: white;
+    background-color: rgb(14, 80, 80);
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+.col ul{
+    background-color:rgb(14, 80, 80);
+}
+.col ul li{
+    position: relative;
+    top: 20px;
+    background-color: rgb(14, 80, 80);
+    list-style:none;
+}
+.col ul li a{
+    color: aliceblue;
+    background-color:  rgb(14, 80, 80);
+    text-decoration: none;
+}
+.col ul li a:hover{
+    color:  rgb(1, 17, 26);
+    transition-duration: 0.4s;
+    padding-left: 8px;
+    font-weight: bold;
+}
+.social{
+    background-color: rgb(14, 80, 80);
+    display: flex;
+    justify-content: space-evenly;
+    width: 180px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    align-items: center;
+    color: rgb(14, 80, 80);
+}
+.social i{
+    background-color: rgb(178, 212, 212);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+.social i:hover{
+    background-color: rgb(1, 17, 26);
+}
+.social i::before{
+    position: relative;
+    top: 7px;
+}
+.social a{
+    background-color: rgb(14, 80, 80);
+}
+.social a:hover{
+    color:  white;
+    }
+.input-sign-up{
+    position: relative;
+    left: 1100px;
+    top: 50px;
+    width: 350px;
+    height: 40px;
+}
+.in-up{
+    width: 100%;
+    height: 100%;
+    border-color: rgb(1, 17, 26);
+    border-style: solid;
+    background-color: rgb(178, 212, 212);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sign-btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(127, 239, 192);
+    border: none;
+    position: relative;
+    top: 70px;
+    left: 1100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.sign-btn:hover{
+    background-color: rgb(1, 17, 26);
+    color: white;
+}

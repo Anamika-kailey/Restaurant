@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <link rel="stylesheet" href="./order.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-container">
+            <button class="back"><a id="back-btn" class='fas fa-arrow-circle-left' href="./food.html"></a></button>
+        </div>
+    </header>
+    <main>
+        <div class="heading">
+            <h2>Order Now</h2>
+            <h1>Free & Fast</h1>
+        </div>
+        <div class="box" id="myform">
+            <div class="left-box">
+                <div class="upper">
+                    <input type="text" name="name" placeholder=" Enter your Name" class="upper-input">
+                    <input type="text" name="food-name" placeholder=" Enter food Name" class="upper-input">
+                    <input type="number" name="how-much" placeholder=" How many Orders" class="upper-input">
+                </div>
+                <div class="lower">
+                    <input type="text" name="address" placeholder="Enter your address" class="lower-input">
+                </div>
+            </div>
+            <div class="right-box">
+                <div class="upper">
+                    <input type="text" name="number" placeholder=" Enter your number" class="upper-input">
+                    <input type="text" name="additional_food" placeholder=" Extra with food" class="upper-input">
+                    <input type="date" name="date" class="upper-input">
+                </div>
+                <div class="lower">
+                    <input type="text" name="message" placeholder="Enter your message" class="lower-input">
+                </div>
+                <button class="btn" onclick="pagePrint(myform)">Order Now</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="cols">
+                <div class="col">
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./food.html">Reservation</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li><a href="./contact.html">507-475-60945-6074</a></li>
+                        <li><a href="./contact.html">restaurant_eyaa@gmail.com</a></li>
+                        <li><a href="./contact.html">123 Street, Bigtown, Chandigarh</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Main Menu</h2>
+                    <ul>
+                        <li><a href="./menu.html">Menus</a></li>
+                        <li><a href="#">Offer</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Social-Media</h2>
+                    <div class="social">
+                        <a><i class="fa fa-instagram"></i></a>
+                        <a><i class="fa fa-facebook"></i></a>
+                        <a><i class="fa fa-twitter"></i></a>
+                        <a><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="input-sign-up">
+                <span class="upper-underline"><input type="text" placeholder="Enter your e-mail address" class="in-up"></span>
+            </div>
+            <button class="sign-btn">Sign Up</button>
+        </div>
+    </footer>
+    <script src="./order.js"></script>
+</body>
+</html>
